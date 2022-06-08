@@ -1,0 +1,94 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.title-main {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.form__label {
+  display: block;
+  width: 41px;
+  height: 19px;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  box-sizing: border-box;
+  padding: 19px 20px;
+  width: 400px;
+  height: 60px;
+  background-color: #E9ECEF;
+  background: #E9ECEF;
+  border: 2px solid #E9ECEF;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+
+.form__button {
+  box-sizing: border-box;
+  background-color: #1971C2;
+  color: white;
+  width: 400px;
+  height: 60px;
+  border: 2px solid #1971C2;
+  border-radius: 8px;
+}
+
+div.container {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 452px;
+  padding: 88px 50px;
+  background: #F8F9FA;
+  border: 2px solid #E9ECEF;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
